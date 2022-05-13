@@ -1,0 +1,35 @@
+
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<div id="crear" class="container col-7 mt-5">
+    <form action="/generar" method="POST">
+        <label class='mb-3 fs-4' for="titulo">Titulo</label>
+        <input class='w-100' type="text" name="titulo">
+        <label class='mb-3 fs-4 mt-3' for="creador">Creador</label>
+        <input class='w-100' type="text" name="creador">
+        <label class='mb-3 fs-4 mt-3' for="urlimagen">Url de la imagen</label>
+        <input class='w-100' type="text" name="urlimagen">
+        <label class='mb-3 fs-4 mt-3' for="introduccion">Introduccion</label>
+        <input class='w-100' type="text" name="introduccion">
+        <select class="mt-3" name="categoria" multiple>
+            <option value='aventura'>Aventura</option>
+            <option value='ciencia'>Ciencia</option>
+            <option value="caricatura">Caricatura</option>
+            <option value="ficcion">Ficcion</option>
+        </select>
+            
+        <label class='mb-3 fs-4 mt-3 w-100' for="enunciado">Enunciado</label>
+        <textarea class='w-100' name="enunciado" cols="30" rows="10"></textarea>
+        
+        <div class="w-100 d-flex justify-content-center mt-4 mb-5">
+            <label class='fs-5 col-1' for="color">Color</label>
+            <input class='col-4 border border-2 mt-1' type="color" name="color" value="#FFFFFF">
+            <label class='fs-5 col-2' style="margin-left: 10px;" for="color">Color letra</label>
+            <input class='col-4 border border-2 mt-1' type="color" name="colorletra" value="#000000">
+        </div>
+        <div class="d-flex justify-content-center mt-4">
+            <button class="w-50 bg-danger text-white border-0 p-2 mb-5 m-3" type="button"><a class="text-decoration-none text-white" href="/">Cancerlar</a></button>
+            <button class="w-50 bg-success text-white border-0 p-2 mb-5 m-3" type="submit">Agregar</button>
+        </div>
+    </form>
+</div>

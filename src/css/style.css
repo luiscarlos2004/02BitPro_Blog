@@ -1,0 +1,48 @@
+#nav{
+    text-align: center;
+    display: block;
+    position: fixed;
+    border-right: 2px solid rgb(201, 200, 200);
+    height: 100%;
+    width: 25%;
+}
+#navbar {
+    margin-top: 30%;
+    margin-right: 20px;
+}
+#navbar ol li a{
+    color: black;
+}
+#cards{
+    margin-left: 30%;
+    width: 40%;
+}
+#cards h1{
+    font-size: 30px;
+}
+#card{
+    
+    border-bottom: 3px solid rgb(187, 185, 185);
+}
+#car{
+    height: 650px;
+}
+#aside{
+    float: right;
+    position: fixed;
+    height: 100%;
+    margin-left: 76%;
+    border-left: 2px solid rgb(201, 200, 200);
+}
+#form{
+    margin: 40px;
+}
+#form select,
+#form input,
+#form button{
+    margin-top: 20px;
+    width: 100%;
+}
+#crear{
+    width: 40%;
+}
